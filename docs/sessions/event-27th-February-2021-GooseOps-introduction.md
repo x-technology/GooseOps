@@ -23,6 +23,13 @@ What might we need for a devops project?
 - basic understanding of Docker, Kubernetes, Terraform.
 - one of the commonly used CI/CD: Github Actions, Gitlab CI, Bitbucket.
 
+During the event we will cover following topics:
+- Starting to work with Docker for local development.
+- Tips to save your time with Docker.
+- Diving into Kubernetes, k8s annotations, `kubectl` tricks.
+- Introducing Infrastructure As Code with Terraform.
+- Starting to work with Terraform to set up a private Kubernetes cluster.
+
 We invite you to join our session on February 27th, 2021 and have some fun together.
 
 ### Tags
