@@ -1,4 +1,4 @@
-# Introducing GooseOps - Infrastructure Open Source Project
+# Introducing GooseOps - Handy toolset for adoption DevOps practices into a startup project
 
 ### Date And Time
 Sat, February 27th, 2021 12:00 PM – 1:00 PM MSK
