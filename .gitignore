@@ -30,3 +30,4 @@ override.tf.json
 
 build
 *.tfvars
+terraform/.kube/config.yaml
