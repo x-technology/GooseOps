@@ -47,6 +47,11 @@ Copyright (c) 2021 x-technology
 
 ![](../assets/github-gooseops-name.png)
 
+## Idea
+We want to develop a set of templates and use several tools, which can be easily used with a new or existing project to set up devops flows.
+
+**DevOps** is a set of practices that combines software development (Dev) and IT operations (Ops). It aims to shorten the systems development life cycle and provide continuous delivery with high software quality.
+
 ## Goals
 
 - Understand how `Docker`, `Kubernetes` works.
@@ -84,7 +89,7 @@ docker push xtechnology/goose-app:v1
 
 Kubernetes is an open-source container-orchestration system for automating computer application deployment, scaling, and management
 
-*Ingress*
+### Ingress
 An API object that manages external access to the services in a cluster, typically HTTP
 
 ![ingress](../assets/ingress-picture.png)
@@ -108,7 +113,7 @@ spec:
               number: 80
 ```
 
-Deployment
+### Deployment
 ```yaml
 apiVersion: apps/v1
 kind: Deployment
@@ -157,7 +162,7 @@ KUBECONFIG=${PWD}/.kube/config.yaml helm install goose-app ../charts/goose-app -
 ```
 
 ```shell
-KUBECONFIG=${PWD}/.kube/config.yaml helm install goose-app ../charts/goose-app -n prod --set "image.tag=v2"
+KUBECONFIG=${PWD}/.kube/config.yaml helm upgrade goose-app ../charts/goose-app -n prod -f ../charts/prod-values.yaml --set "image.tag=v2" 
 ```
 
 
