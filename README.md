@@ -3,7 +3,7 @@ This is a demo project about DevOps techniques and practicies to simplify CI/CD 
 
 It's an ongoing open-source project explained in tech talks with [X-Technology](https://github.com/x-technology) group.
 
-Talks: 
+## Talks
 - 27/02/2021 - [Introducing GooseOps - Handy toolset for adopting DevOps practices](https://www.youtube.com/watch?v=3ofIaeM4nls)
 
 ## Goals
