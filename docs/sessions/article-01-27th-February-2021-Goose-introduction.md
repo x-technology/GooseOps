@@ -19,7 +19,7 @@ tags:
 - CloudComputing
 - Startup
 ---
-![GooseOps-Logo](/media/p03-gooseops.png)
+![GooseOps-Logo](https://github.com/x-technology/GooseOps/blob/main/docs/assets/github-gooseops-name.png)
 
 ## Hello World!
 
